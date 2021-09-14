@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+## USAGE EXAMPLE
+## $ bin/disco '{ "key": "value" }'
+##
+## $ find ./datastore -type f | xargs tail -n +1
+## ==> ./datastore/key <==
+## value
+##
+## ==> ./datastore/index <==
+## 1
+
+Dir["./lib/*.rb"].each { |file| require file }
+Disco.write(ARGV[0])

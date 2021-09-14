@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p ./datastore
+touch ./datastore/index
+rm ./datastore/*
+echo -ne 0 > ./datastore/index
