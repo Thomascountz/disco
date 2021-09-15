@@ -6,7 +6,7 @@ Experiement inspired by: [Why Observability Requires a Distributed Column Store]
 ## Usage Example
 
 ```bash
-$ bin/coloco '{ "key": "value" }'
+$ bin/disco '{ "key": "value" }'
 
 $ find ./datastore -type f | xargs tail -n +1
 ==> ./datastore/key <==
