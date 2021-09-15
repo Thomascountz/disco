@@ -29,7 +29,7 @@ Each file represents a column. Each line represents the value of the column in t
 ### `/bin/disco`
 Parses and writes a JSON event into columnar data store
 
-## ⚠️ `/bin/reset` - DESTRUTIVE
+### ⚠️ `/bin/reset` - DESTRUTIVE
 
 For prototyping: destroys all data in `/datastore` and restores `index` to `0`
 
